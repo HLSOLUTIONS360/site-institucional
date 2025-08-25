@@ -4,19 +4,22 @@ Este projeto é um **site institucional** desenvolvido para a empresa **HL Solut
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🚀 Acesse o site
+🔗 [Clique aqui para acessar o site publicado](https://hlsolutions360.github.io/site-institucional/)
 
+---
+
+## 📂 Estrutura do Projeto
 - `index.html` → Página inicial (Home)  
 - `about.html` → Página **Sobre Nós**  
 - `services.html` → Página de **Serviços**  
 - `contact.html` → Página de **Contato**  
-- `style.css` → Arquivo de estilos globais (CSS)  
+- `style.css` → Estilos globais (CSS)  
 - `logo-hl.jpg` → Logotipo oficial da HL Solutions 360  
 
 ---
 
-## 🚀 Como Rodar o Projeto Localmente
-
-1. Faça o clone deste repositório:
+## ⚙️ Como Rodar o Projeto Localmente
+1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/site-institucional.git
+   git clone https://github.com/HLSOLUTIONS360/site-institucional.git
