@@ -1,14 +1,22 @@
-# Site Institucional HL Solutions 360
+# 🌐 Site Institucional - HL Solutions 360
 
-Projeto de site institucional desenvolvido em HTML e CSS.
+Este projeto é um **site institucional** desenvolvido para a empresa **HL Solutions 360**, com o objetivo de apresentar serviços de criação de sites, integração com WhatsApp e soluções digitais.
 
-## Estrutura
-- `index.html` -> Página inicial
-- `about.html` -> Sobre nós
-- `services.html` -> Serviços
-- `contact.html` -> Contato
-- `style.css` -> Estilos globais
-- `logo-hl.jpg` -> Logo da empresa
+---
 
-## Como visualizar
-Basta abrir o arquivo `index.html` no navegador ou acessar a versão online no Netlify/GitHub Pages.
+## 📁 Estrutura do Projeto
+
+- `index.html` → Página inicial (Home)  
+- `about.html` → Página **Sobre Nós**  
+- `services.html` → Página de **Serviços**  
+- `contact.html` → Página de **Contato**  
+- `style.css` → Arquivo de estilos globais (CSS)  
+- `logo-hl.jpg` → Logotipo oficial da HL Solutions 360  
+
+---
+
+## 🚀 Como Rodar o Projeto Localmente
+
+1. Faça o clone deste repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/site-institucional.git
