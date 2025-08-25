@@ -1,0 +1,306 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #0d274d;
+}
+header .logo img {
+  height: 60px;
+  width: auto;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+header nav a:hover {
+  color: #ff6600;
+}
+
+/* Hero (página inicial) */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+  background: #0a1f44;
+  color: white;
+}
+.hero h1 {
+  font-size: 40px;
+}
+.hero p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.btn {
+  background: #ff6600;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #ff8533;
+}
+
+/* Destaques (cards da Home) */
+.destaques {
+  padding: 60px 20px;
+  background: #132b5a;
+  text-align: center;
+  color: white;
+}
+.destaques h2 {
+  margin-bottom: 30px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background: #1e3c72;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Sobre Nós */
+.sobre {
+  padding: 60px 20px;
+  text-align: center;
+  background: #0a1f44;
+  color: white;
+}
+.sobre h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.sobre p {
+  font-size: 18px;
+  margin: 10px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Missão, Visão e Valores */
+.mvv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px 20px;
+  background: #132b5a;
+}
+.mvv .box {
+  background: #1e3c72;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.mvv .box:hover {
+  transform: scale(1.05);
+}
+.mvv h2 {
+  margin-bottom: 10px;
+}
+
+/* Serviços */
+.servicos {
+  padding: 60px 20px;
+  text-align: center;
+  background: #0a1f44;
+  color: white;
+}
+.servicos h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.servicos p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.servicos .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.servicos .card {
+  background: #1e3c72;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.servicos .card:hover {
+  transform: scale(1.05);
+}
+.servicos h3 {
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+/* Planos (preços) */
+.planos {
+  padding: 60px 20px;
+  text-align: center;
+  background: #0a1f44;
+  color: white;
+}
+.planos h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.cards-planos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.plano {
+  background: #1e3c72;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.plano:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+.plano h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+.plano p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.preco {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ff99;
+}
+
+/* Contato */
+.contato {
+  padding: 60px 20px;
+  text-align: center;
+  background: #132b5a;
+  color: white;
+}
+.contato h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.contato p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.contato form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.contato input,
+.contato textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+.contato button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.contato button:hover {
+  background: #ff8533;
+}
+.contato .info {
+  margin-top: 30px;
+  font-size: 16px;
+}
+.contato .info a {
+  color: #00ff99;
+  text-decoration: none;
+}
+.contato .info a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  background: #0d274d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* WhatsApp Flutuante */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+.whatsapp-float img {
+  width: 35px;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
